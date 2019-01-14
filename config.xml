@@ -3,11 +3,11 @@
         xmlns:gap   = "http://phonegap.com/ns/1.0"
         id          = "no.dovekirken.katekisme"
         versionCode = "1" 
-        version     = "1.0.2" >
+        version     = "1.0.1" >
 
     <!-- versionCode is optional and Android only -->
 
-    <name>Bønner for konfirmanter</name>
+    <name>Boenner for konfirmanter og andre </name>
 
     <description>
        pa Norsk tegnsprak - NTS
@@ -16,14 +16,6 @@
       
     <preference name="android-minSdkVersion" value="8" />
     <preference name="android-targetSdkVersion" value="26" />
-    <!--
-            ldpi    : 36x36 px
-            mdpi    : 48x48 px
-            hdpi    : 72x72 px
-            xhdpi   : 96x96 px
-            xxhdpi  : 144x144 px
-            xxxhdpi : 192x192 px
-        -->
     
   <icon src="ldpi.png" density="ldpi" />
  <icon src="mdpi.png" density="mdpi" />
@@ -67,7 +59,8 @@
 <!-- iPad Spotlight and Settings Icon -->
 <icon src="icon-50.png" platform="ios" width="50" height="50" />
 <icon src="icon-50@2x.png" platform="ios" width="100" height="100" />
-
+<icon src="icon.png" platform="winphone" />
+<icon src="tileicon.png" platform="winphone" role="background" />
 
     <author href="http://tegnkultur.no" email="michael.hoffmann@dovekirken.no">
         Michael Hoffmann 
